@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+:root{
+    --black: #000000;
+    --grey: #BBBBBB;
+    --black-dark: #0D1117;
+    --white: #FFFFFF;
+    --purple: #5A2DC0;
+    --blue: #222852;
+    --orange: #F18836;
+}
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fundo{
+    background: var(--black-dark);
+}
+.title {
+    font-size: 50px;
+
+    font-family: 'Lobster', Arial, sans-serif;
+}
+
+header{
+    background: var(--grey);
+    padding: 32px;
+}
+.caixa{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.navegacao{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+.navegacao li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+.navegacao a{
+    text-transform: uppercase;
+    color: var(--black);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: var(--orange);
+    text-decoration: underline;
+}
+

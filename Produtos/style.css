@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.headerProdutos {
+    padding: 32px;
+}
+.cardsProdutos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.cardsProdutos li {
+    margin: 32px;
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+.title {
+    font-size: 50px;
+    font-family: 'Lobster', Arial, sans-serif;
+}
+
+.card {
+    border: 8px dashed var(--orange);
+    background: var(--white);
+    width: 250px;
+    min-height: 400px;
+    text-align: center;
+    border-radius: 28px;
+    font-size: 32px;
+    padding: 16px;
+}
+.cardsProdutos li:hover .tipoProduto{
+    font-size: 40px;
+}
+
+.tipoProduto {
+    font-size: 36px;
+    margin-bottom: 8px;
+    font-family: 'Lobster', Arial, sans-serif;
+}
+
+
+.descricao {
+    font-size: 20px;
+    min-height: 50px;
+}
+
+.preco {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 8px
+}
+.footerBarbearia{
+    background: url(../assets/bg.jpg);
+    text-align: center;
+    padding: 40px 0;
+}
+.copyright{
+    color: var(--white);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
